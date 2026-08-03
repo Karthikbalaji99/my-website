@@ -85,12 +85,13 @@
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Data Scientist | GenAI and LLMS | Agentic AI | AI/ML</h3>
-            <p>I’m Karthik Balaji, an AI Engineer and Data Scientist focused on solving real-world problems using
+            <h3>Lead AI Engineer | GenAI and LLMs | Agentic AI | AI/ML</h3>
+            <p>I’m Karthik Balaji, a Lead AI Engineer and Data Scientist focused on solving real-world problems using
                 machine learning, natural language processing, and Generative AI. With a background in engineering and
                 sustainability, I blend technical expertise with domain knowledge to build intelligent systems that
-                drive data-informed decisions. I specialize in building scalable AI pipelines, fine-tuning LLMs, and
-                delivering impactful solutions across ESG, carbon accounting, and automation.</p>
+                drive data-informed decisions. I specialize in building 0→1 agentic architectures, scalable AI pipelines,
+                fine-tuning LLMs, and delivering impactful solutions across healthcare intake automation, media/video AI,
+                ESG, carbon accounting, and enterprise automation.</p>
 
 
         </div>
@@ -99,57 +100,92 @@
         <h2 class="heading">My <span>Experience</span></h2>
 
         <div class="experience-container">
-            <!-- Card 1 -->
+            <!-- Card 0: Asynk (current) -->
             <div class="experience-box left">
+                <div class="experience-logo0">
+                    <img src="images/asynk_logo.png" alt="Asynk" />
+                </div>
+                <div class="experience-text">
+                    <h3>Lead AI Engineer – Asynk</h3>
+                    <span>Mumbai, India • 07/2025 - Present</span>
+                    <p> At Asynk, I lead 0→1 product development for Agentic AI systems across media and healthcare
+                        intake automation. My work includes:</p>
+                    <ul>
+                        <li>Led the 0→1 build of ReelReports, a conversational AI pipeline that generates video scene
+                            data through natural-language interaction, deployed on Azure (Azure AI Foundry, Azure
+                            OpenAI Service).</li>
+                        <li>Built the backend in Python/FastAPI alongside a React/TypeScript-based video engine
+                            rendering in real time at 60fps, with OCR and vision-language systems handling automated
+                            audio-visual sync and spatial text placement.</li>
+                        <li>Cut inference and token costs by 40–50% through better model orchestration, self-hosted
+                            open-source LLM deployment (Mistral, on-premise VMs), and tighter prompt engineering.</li>
+                        <li>Own backend architecture for Kenqo, a DME/Medicare intake automation platform on GCP —
+                            a human-in-the-loop agentic system (Level 3 autonomy) with a conversational agent
+                            interface for querying patient/clinical data, OCR-based document pre-processing, and
+                            multiple Gemini extraction agents running in parallel.</li>
+                        <li>Built the HCPCS reference ingestion pipeline, a Neo4j-based patient data validation
+                            engine, and a merge-or-new decision engine for CSRs using Pub/Sub and SQLAlchemy/Alembic.</li>
+                    </ul>
+                    <p> Tools and Frameworks Used:</p>
+                    <p> GPT-4, Claude, Gemini, Mistral, Agentic AI, RAG, OCR, Neo4j, Azure AI Foundry, Azure OpenAI
+                        Service, GCP, Docker, Kubernetes, FastAPI, React/TypeScript</p>
+                </div>
+            </div>
+
+            <!-- Card 1 -->
+            <div class="experience-box right">
                 <div class="experience-logo1">
                     <img src="images/mycorr_logo.png" alt="MyCorr" />
                 </div>
                 <div class="experience-text">
                     <h3>Head of GenAI Product – MyCorr</h3>
-                    <span>France (Remote) • 04/2025 - Present</span>
-                    <p> At MyCorr, I lead the development of advanced Generative AI systems for ESG and sustainability.
-                        My work includes:</p>
+                    <span>Chennai, India (Remote) • 04/2025 - 06/2025</span>
+                    <p> At MyCorr, I led the development of Generative AI systems for ESG and sustainability. My work
+                        included:</p>
                     <ul>
                         <li>Architecting agentic AI workflows for automating lifecycle and GHG assessments.</li>
-                        <li>Developing LangChain agents and multi-step prompt chains for sustainability advisory.</li>
-                        <li>Building retrieval-augmented chatbots deployed on Azure with Docker & Kubernetes.</li>
+                        <li>Designing custom multi-step agent orchestration and prompt chains for sustainability
+                            advisory (built from first principles rather than a framework dependency).</li>
+                        <li>Building retrieval-augmented chatbots deployed on Azure with Docker & Kubernetes, using
+                            hybrid search and re-ranking across Pinecone and Azure AI Search.</li>
                         <li>Designing Python-based pipelines to transform structured and unstructured ESG datasets in
                             real time.</li>
-                        <li>Leading the implementation of scalable AI systems that dynamically map value chain emissions
-                            to help clients achieve net-zero targets.</li>
+                        <li>Leading the implementation of scalable AI systems that dynamically map value chain
+                            emissions to help clients achieve net-zero targets.</li>
                     </ul>
                     <p> Tools and Frameworks Used:</p>
-                    <p> GenAI and LLMs, AgenticAI, RAG pipelines, MLOps, Vector Databases, PostgreSQL, Kubernetes</p>
+                    <p> GenAI and LLMs, Agentic AI, RAG pipelines, MLOps, Vector Databases, PostgreSQL, Kubernetes</p>
 
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="experience-box right">
+            <div class="experience-box left">
                 <div class="experience-logo2">
                     <img src="images/carboncompete_logo.png" alt="CarbonCompete" />
                 </div>
                 <div class="experience-text">
                     <h3>AI/ML Engineer – CarbonCompete</h3>
-                    <span>France (Remote) • 02/2024 - 03/2025</span>
+                    <span>Chennai, India (Remote) • 02/2024 - 04/2025</span>
                     <p> During my tenure at CarbonCompete, I focused on developing core AI and ML functionalities:</p>
 
                     <ul>
                         <li>Designed a Retrieval-Augmented Generation (RAG) framework for sustainability insights.</li>
-                        <li>Fine-tuned open-source LLMs and developed CarbonGPT for value chain mapping.</li>
+                        <li>Fine-tuned self-hosted open-source LLMs and developed CarbonGPT conversational agents for
+                            value chain mapping.</li>
                         <li>Built predictive time-series models using Amazon Chronos with >93% accuracy.</li>
                         <li>Automated ESG assessments and contributed to frameworks aligned with PCAF and GHG Protocol.
                         </li>
                         <li> Delivered data pipelines that handled both SQL and NoSQL sources for preprocessing and
                             transformation.</li>
                         <p> Tools and Frameworks Used:</p>
-                        <p>ML frameworks(scikit-learn, keras, tensorflow), PowerBI, Azure, Kuberneters, Docker</p>
+                        <p>ML frameworks(scikit-learn, keras, tensorflow), PowerBI, Azure, Kubernetes, Docker</p>
                     </ul>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="experience-box left">
+            <div class="experience-box right">
                 <div class="experience-logo3">
                     <img src="images/mothersons_logo.png" alt="Motherson" />
                 </div>
@@ -179,20 +215,20 @@
             <div class="skill-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Programming</h3>
-                <p>Python (Pandas, NumPy, Scikit-learn), FastAPI, Git, GitHub</p>
+                <p>Python (Expert), TypeScript, JavaScript, Node.js, SQL, MongoDB, FastAPI, Git, GitHub</p>
             </div>
 
             <div class="skill-box">
                 <i class='bx bx-brain'></i>
                 <h3>GenAI and LLMs</h3>
-                <p>Chronos, NLP, Transformers, Hugging Face, OpenAI APIs, Mistral APIs, Prompt Engineering, RAG, Agentic
-                    AI, LlamaIndex, Model Finetuning</p>
+                <p>GPT-4, Claude, Gemini, Mistral (API & self-hosted), Chronos, NLP, Transformers, Hugging Face,
+                    Prompt Engineering, RAG, Agentic AI, Conversational AI, Model Fine-tuning</p>
             </div>
 
             <div class="skill-box">
                 <i class='bx bx-data'></i>
                 <h3>Data Engineering</h3>
-                <p>SQL, PostgreSQL, Data Cleaning, Normalization, Preprocessing</p>
+                <p>SQL, PostgreSQL, SQLAlchemy, Alembic, Data Cleaning, Normalization, Preprocessing</p>
             </div>
 
             <div class="skill-box">
@@ -203,8 +239,8 @@
 
             <div class="skill-box">
                 <i class='bx bx-network-chart'></i>
-                <h3>Deep Learning</h3>
-                <p>TensorFlow, Keras, CNNs, RNNs, Transfer Learning</p>
+                <h3>Deep Learning & Computer Vision</h3>
+                <p>TensorFlow, PyTorch, Keras, CNNs, RNNs, Transfer Learning, OCR, Haar Cascade Detection</p>
             </div>
 
             <div class="skill-box">
@@ -221,14 +257,14 @@
 
             <div class="skill-box">
                 <i class='bx bx-layer'></i>
-                <h3>Vector Databases</h3>
-                <p>Pinecone, Qdrant</p>
+                <h3>Vector & Graph Databases</h3>
+                <p>Pinecone, ChromaDB, Qdrant, Neo4j, Azure AI Search</p>
             </div>
 
             <div class="skill-box">
                 <i class='bx bx-cloud'></i>
                 <h3>Cloud Architecture</h3>
-                <p>Microsoft Azure, AWS (basic), GCP (basic)</p>
+                <p>Microsoft Azure (Functions, AKS, Blob Storage, AI Foundry, OpenAI Service), AWS (Lambda, S3), GCP</p>
             </div>
 
 

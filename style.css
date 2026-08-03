@@ -555,6 +555,19 @@ span{
   box-shadow: 0 0 2rem rgba(0, 229, 255, 0.2);
 }
 
+.experience-logo0 img {
+  width: 30vw;
+  height: 30vw;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  margin-right: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 2rem rgba(0, 229, 255, 0.2);
+}
+ 
+
 .experience-logo3 img {
   width: 30vw;
   height: 30vw;
